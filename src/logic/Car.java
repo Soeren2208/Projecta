@@ -8,4 +8,8 @@ public class Car {
         this.mileAge=mileAge;
         this.actualSpeed = actualSpeed;
     }
+
+    public void accelerate(){
+        this.actualSpeed +=5;
+    }
 }
