@@ -11,5 +11,20 @@ public class Car {
 
     public void accelerate(){
         this.actualSpeed +=5;
+
+    public double getMileAge() {
+        return mileAge;
+    }
+
+    public int getActualSpeed() {
+        return actualSpeed;
+    }
+
+    public void setMileAge(double mileAge) {
+        this.mileAge = mileAge;
+    }
+
+    public void setActualSpeed(int actualSpeed) {
+        this.actualSpeed = actualSpeed;
     }
 }
